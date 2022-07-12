@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope">
+    <oauth_entity_scope action="DELETE">
+        <in_default_profile>false</in_default_profile>
+        <name>openid</name>
+        <oauth_entity display_value="Mike Azure">5bca60b22f2015108968ea5ef699b6ab</oauth_entity>
+        <oauth_entity_scope>openid</oauth_entity_scope>
+        <sys_class_name>oauth_entity_scope</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 05:33:54</sys_created_on>
+        <sys_id>e9e73cbe2f2015108968ea5ef699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>openid</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>oauth_entity_scope_e9e73cbe2f2015108968ea5ef699b60f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 05:33:54</sys_updated_on>
+    </oauth_entity_scope>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40b9c3a5db5cf3000b9d21c40596195a</instance_id>
+        <instance_name>dev76182</instance_name>
+        <name>oauth_entity_scope_e9e73cbe2f2015108968ea5ef699b60f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_scope"><oauth_entity_scope action="INSERT_OR_UPDATE"><in_default_profile>false</in_default_profile><name>openid</name><oauth_entity display_value="Mike Azure">5bca60b22f2015108968ea5ef699b6ab</oauth_entity><oauth_entity_scope>openid</oauth_entity_scope><sys_class_name>oauth_entity_scope</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-11 05:33:54</sys_created_on><sys_id>e9e73cbe2f2015108968ea5ef699b60f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>openid</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>oauth_entity_scope_e9e73cbe2f2015108968ea5ef699b60f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-11 05:33:54</sys_updated_on></oauth_entity_scope></record_update>]]></payload>
+        <payload_hash>1594738103</payload_hash>
+        <record_name>openid</record_name>
+        <reverted_from/>
+        <source>551f85752f6811108968ea5ef699b65d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 05:33:54</sys_created_on>
+        <sys_id>b0187cbe2f2015108968ea5ef699b6dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181ebbff30a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 05:33:54</sys_updated_on>
+        <type>OAuth Entity Scope</type>
+        <update_guid>f8187cbea620151027861c746aff9edb</update_guid>
+        <update_guid_history>f8187cbea620151027861c746aff9edb:1594738103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="openid">07ebb8b22f6015108968ea5ef699b641</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 05:50:43</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_scope">oauth_entity_scope</sys_db_object>
+        <sys_id>1487b85ce9814f9ab25275cae1632b81</sys_id>
+        <sys_metadata>e9e73cbe2f2015108968ea5ef699b60f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>openid</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>oauth_entity_scope_e9e73cbe2f2015108968ea5ef699b60f</sys_update_name>
+        <sys_update_version display_value="oauth_entity_scope_e9e73cbe2f2015108968ea5ef699b60f">b0187cbe2f2015108968ea5ef699b6dc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 05:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

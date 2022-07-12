@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="DELETE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url>https://login.microsoftonline.com/972a8e0e-ec0e-4a11-9f26-3ad7cb22f8f8/oauth2/v2.0/authorize</auth_url>
+        <certificate_url/>
+        <client_id>989efdf5-38c5-4d28-94d0-80db029fb963</client_id>
+        <client_secret>﷞﷟﷒da2b3f6d2f2411108968ea5ef699b686﷬﷔1﷬﷭LbWHDp1En3twfnI311lPDg==PtrT6tiRqk_U2URO5paEKpyx6s1LYhH3k86gAdEyBZpehYDB1PPw0Bl235q_tS-n13ACWNbk8x4=﷮﷯</client_secret>
+        <client_uuid>91bb9bea2fe8d1108968ea5ef699b6ab</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>Mike Azure AD OAuth</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://dev76182.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-10 22:52:43</sys_created_on>
+        <sys_id>15bb9bea2fe8d1108968ea5ef699b6ab</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Mike Azure AD OAuth</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>oauth_entity_15bb9bea2fe8d1108968ea5ef699b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 04:10:23</sys_updated_on>
+        <token_url>https://login.microsoftonline.com/972a8e0e-ec0e-4a11-9f26-3ad7cb22f8f8/oauth2/v2.0/token</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40b9c3a5db5cf3000b9d21c40596195a</instance_id>
+        <instance_name>dev76182</instance_name>
+        <name>oauth_entity_15bb9bea2fe8d1108968ea5ef699b6ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>0</auth_code_lifespan><auth_url>https://login.microsoftonline.com/972a8e0e-ec0e-4a11-9f26-3ad7cb22f8f8/oauth2/v2.0/authorize</auth_url><certificate_url/><client_id>989efdf5-38c5-4d28-94d0-80db029fb963</client_id><client_secret>﷞﷟﷒da2b3f6d2f2411108968ea5ef699b686﷬﷔1﷬﷭LbWHDp1En3twfnI311lPDg==PtrT6tiRqk_U2URO5paEKpyx6s1LYhH3k86gAdEyBZpehYDB1PPw0Bl235q_tS-n13ACWNbk8x4=﷮﷯</client_secret><client_uuid>91bb9bea2fe8d1108968ea5ef699b6ab</client_uuid><code_challenge_method>S256</code_challenge_method><comments/><default_grant_type>client_credentials</default_grant_type><id_token_lifespan>0</id_token_lifespan><logo_url/><message_signature_lifespan>0</message_signature_lifespan><name>Mike Azure AD OAuth</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url>https://dev76182.service-now.com/oauth_redirect.do</redirect_url><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt>0</salt><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-10 22:52:43</sys_created_on><sys_id>15bb9bea2fe8d1108968ea5ef699b6ab</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Mike Azure AD OAuth</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>oauth_entity_15bb9bea2fe8d1108968ea5ef699b6ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-11 04:10:23</sys_updated_on><token_url>https://login.microsoftonline.com/972a8e0e-ec0e-4a11-9f26-3ad7cb22f8f8/oauth2/v2.0/token</token_url><type>oauth_provider</type><use_mutual_auth>false</use_mutual_auth><user/></oauth_entity></record_update>]]></payload>
+        <payload_hash>-118780787</payload_hash>
+        <record_name>Mike Azure AD OAuth</record_name>
+        <reverted_from/>
+        <source>551f85752f6811108968ea5ef699b65d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 04:10:23</sys_created_on>
+        <sys_id>a1f4a83e2fecd1108968ea5ef699b6c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181eb737dbc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 04:10:23</sys_updated_on>
+        <type>Application Registries</type>
+        <update_guid>a9f4a83e82ecd110c75cee2218b720c7</update_guid>
+        <update_guid_history>a9f4a83e82ecd110c75cee2218b720c7:-118780787,8e84a03e5cecd11035cfb619aeeeb19c:66092024,fe642cfa4cecd1102d52cca359c7ec15:-1392617488,d84fdfaef1e8d110d5f87d2d2ab11d8e:66092024,c97c572e3fe8d1108e3157aa47561730:-319387951,c04c9bea9be8d110a666099df8ce25b7:535288682</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mike Azure AD OAuth">ceba20b22f2015108968ea5ef699b631</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 04:35:33</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity">oauth_entity</sys_db_object>
+        <sys_id>04c12a1ade0944d0801b404b17e7f640</sys_id>
+        <sys_metadata>15bb9bea2fe8d1108968ea5ef699b6ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mike Azure AD OAuth</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>oauth_entity_15bb9bea2fe8d1108968ea5ef699b6ab</sys_update_name>
+        <sys_update_version display_value="oauth_entity_15bb9bea2fe8d1108968ea5ef699b6ab">a1f4a83e2fecd1108968ea5ef699b6c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 04:35:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

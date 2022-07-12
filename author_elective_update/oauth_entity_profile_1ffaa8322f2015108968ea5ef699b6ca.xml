@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="DELETE">
+        <default>true</default>
+        <grant_type>client_credentials</grant_type>
+        <jwt_provider/>
+        <name>Mike Azure default_profile</name>
+        <oauth_entity display_value="Mike Azure">5bca60b22f2015108968ea5ef699b6ab</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 04:36:44</sys_created_on>
+        <sys_id>1ffaa8322f2015108968ea5ef699b6ca</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Mike Azure default_profile</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>oauth_entity_profile_1ffaa8322f2015108968ea5ef699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 07:00:21</sys_updated_on>
+    </oauth_entity_profile>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40b9c3a5db5cf3000b9d21c40596195a</instance_id>
+        <instance_name>dev76182</instance_name>
+        <name>oauth_entity_profile_1ffaa8322f2015108968ea5ef699b6ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile"><oauth_entity_profile action="INSERT_OR_UPDATE"><default>true</default><grant_type>client_credentials</grant_type><jwt_provider/><name>Mike Azure default_profile</name><oauth_entity display_value="Mike Azure">5bca60b22f2015108968ea5ef699b6ab</oauth_entity><sys_class_name>oauth_entity_profile</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-11 04:36:44</sys_created_on><sys_id>1ffaa8322f2015108968ea5ef699b6ca</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Mike Azure default_profile</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>oauth_entity_profile_1ffaa8322f2015108968ea5ef699b6ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-11 07:00:21</sys_updated_on></oauth_entity_profile></record_update>]]></payload>
+        <payload_hash>-1712528971</payload_hash>
+        <record_name>Mike Azure default_profile</record_name>
+        <reverted_from/>
+        <source>551f85752f6811108968ea5ef699b65d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 07:00:22</sys_created_on>
+        <sys_id>efdb45b22fa015108968ea5ef699b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181ec0f1e720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 07:00:22</sys_updated_on>
+        <type>OAuth Entity Profile</type>
+        <update_guid>e7db45b2c8a015103e9f1d8b536ad645</update_guid>
+        <update_guid_history>e7db45b2c8a015103e9f1d8b536ad645:-1712528971,c67bcd726aa015105c2dfd77990c3733:-1071991614,71b2017aea60151002e7b3abe1020ea9:-1712528971,2182893adf601510f7f3e28b41bd30d1:-1071991614,1842093a1b601510b24511ac2e2ceca7:-205789571,bafee0b6e9201510b46de5a89ae82b0c:-1712528971,93faa8327b2015101088636e26105bcc:40751530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mike Azure default_profile">95de71032fe055108968ea5ef699b6c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 05:21:31</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_profile">oauth_entity_profile</sys_db_object>
+        <sys_id>25a2dc4e0ff54ac4886456e8a19a7710</sys_id>
+        <sys_metadata>1ffaa8322f2015108968ea5ef699b6ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mike Azure default_profile</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>oauth_entity_profile_1ffaa8322f2015108968ea5ef699b6ca</sys_update_name>
+        <sys_update_version display_value="oauth_entity_profile_1ffaa8322f2015108968ea5ef699b6ca">efdb45b22fa015108968ea5ef699b645</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 05:21:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
