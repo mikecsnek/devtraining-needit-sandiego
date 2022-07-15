@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="pinnacle_kfs_infoz" max_length="40" name="x_58872_needit_pinnacle_kfs_infoz" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ACCOUNT_NAME" max_length="40" name="account_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ACCOUNT_NUMBER" max_length="40" name="account_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ACTIVE_FLAG" max_length="40" name="active_flag" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CONTINUATION_ACCOUNT_NAME" max_length="40" name="continuation_account_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CONTINUATION_ACCOUNT_NUM" max_length="40" name="continuation_account_num" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DEACTIVATE_DATE" max_length="40" name="deactivate_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="END_DATE" max_length="40" name="end_date" type="glide_date"/>
+        <element label="ORG_CD" max_length="40" name="org_cd" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="ORG_NM" max_length="40" name="org_nm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RPTS_TO_ORG_CD" max_length="40" name="rpts_to_org_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="START_DATE" max_length="40" name="start_date" type="glide_date"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

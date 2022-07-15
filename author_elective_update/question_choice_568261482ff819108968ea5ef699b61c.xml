@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Mac">7774b2572f2495108968ea5ef699b64d</published_ref>
+        <question display_value="PC or Mac?">da8261482ff819108968ea5ef699b615</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 05:51:49</sys_created_on>
+        <sys_id>568261482ff819108968ea5ef699b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mac</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>question_choice_568261482ff819108968ea5ef699b61c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 05:51:49</sys_updated_on>
+        <text>Mac</text>
+        <value>visio365-mac</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=568261482ff819108968ea5ef699b61c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40b9c3a5db5cf3000b9d21c40596195a</instance_id>
+        <instance_name>dev76182</instance_name>
+        <name>question_choice_568261482ff819108968ea5ef699b61c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Mac">7774b2572f2495108968ea5ef699b64d</published_ref><question display_value="PC or Mac?">da8261482ff819108968ea5ef699b615</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-15 05:51:49</sys_created_on><sys_id>568261482ff819108968ea5ef699b61c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mac</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>question_choice_568261482ff819108968ea5ef699b61c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-15 05:51:49</sys_updated_on><text>Mac</text><value>visio365-mac</value></question_choice><fx_price action="delete_multiple" query="id=568261482ff819108968ea5ef699b61c"/></record_update>]]></payload>
+        <payload_hash>1866552182</payload_hash>
+        <record_name>Mac</record_name>
+        <reverted_from/>
+        <source>551f85752f6811108968ea5ef699b65d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 05:51:50</sys_created_on>
+        <sys_id>528261482ff819108968ea5ef699b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1820069ccfb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 05:51:50</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>d6826148cff819104c573aaea9c8ea1e</update_guid>
+        <update_guid_history>d6826148cff819104c573aaea9c8ea1e:1866552182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mac">1fe42dc82ff819108968ea5ef699b683</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-15 06:02:16</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>a94d66cf92ff475ab9cbaa0c6b2af579</sys_id>
+        <sys_metadata>568261482ff819108968ea5ef699b61c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mac</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">da8261482ff819108968ea5ef699b615</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>question_choice_568261482ff819108968ea5ef699b61c</sys_update_name>
+        <sys_update_version display_value="question_choice_568261482ff819108968ea5ef699b61c">528261482ff819108968ea5ef699b61f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-15 06:02:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

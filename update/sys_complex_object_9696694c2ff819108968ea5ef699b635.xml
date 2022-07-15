@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1696694c84f81910cc278e7e3e69dc35</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6ead8e780f603200cd674f8ce1050ed1</scope_name>
+        <serialized_content>{"FlowDesigner:FD1696694c84f81910cc278e7e3e69dc35":{"u_account_name":"String","u_account_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ACCOUNT_NAME\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_continuation_account_name":"String","u_continuation_account_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"CONTINUATION_ACCOUNT_NAME\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_account_number":"String","u_account_number.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ACCOUNT_NUMBER\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_end_date":"String","u_end_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"END_DATE\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_active_flag":"String","u_active_flag.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ACTIVE_FLAG\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_start_date":"String","u_start_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"START_DATE\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_continuation_account_num":"String","u_continuation_account_num.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"CONTINUATION_ACCOUNT_NUM\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_rpts_to_org_cd":"String","u_rpts_to_org_cd.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"RPTS_TO_ORG_CD\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_deactivate_date":"String","u_deactivate_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"DEACTIVATE_DATE\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_org_cd":"Integer","u_org_cd.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"ORG_CD\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_org_nm":"String","u_org_nm.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ORG_NM\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:FD1696694c84f81910cc278e7e3e69dc35.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"FD1696694c84f81910cc278e7e3e69dc35\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 06:09:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9696694c2ff819108968ea5ef699b635</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1696694c84f81910cc278e7e3e69dc35</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_complex_object_9696694c2ff819108968ea5ef699b635</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 06:09:34</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
