@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Visio 365">d39336172f2495108968ea5ef699b6e7</cat_item>
+        <cat_variable>IO:8be2e5482ff819108968ea5ef699b696</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>post KFS data to record</name>
+        <order/>
+        <script><![CDATA[function onChange() {
+	
+var ga= new GlideAjax('pinn_info');
+ga.addParam("sysparm_name",'getInfo');
+ga.addParam("sysparm_visio_365_kfs_account_number", 'visio_365_kfs_account_number');
+ga.getXML(output);
+
+function output(response)
+{
+var answer = response.responseXML.documentElement.getAttribute("answer");
+alert(answer);
+var value = answer.split(",");
+alert(value[0]);
+//alert(value[1]);
+g_form.setValue('visio_365_account_name',value[0]);
+//g_form.setValue('room_number',value[1]);
+
+}
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 16:59:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e92bff882f3459108968ea5ef699b684</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>post KFS data to record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>catalog_script_client_e92bff882f3459108968ea5ef699b684</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 20:48:01</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40b9c3a5db5cf3000b9d21c40596195a</instance_id>
+        <instance_name>dev76182</instance_name>
+        <name>catalog_script_client_e92bff882f3459108968ea5ef699b684</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Visio 365"&gt;d39336172f2495108968ea5ef699b6e7&lt;/cat_item&gt;&lt;cat_variable&gt;IO:8be2e5482ff819108968ea5ef699b696&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;post KFS data to record&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange() {
+	
+var ga= new GlideAjax('pinn_info');
+ga.addParam("sysparm_name",'getInfo');
+ga.addParam("sysparm_visio_365_kfs_account_number", 'visio_365_kfs_account_number');
+ga.getXML(output);
+
+function output(response)
+{
+var answer = response.responseXML.documentElement.getAttribute("answer");
+alert(answer);
+var value = answer.split(",");
+alert(value[0]);
+//alert(value[1]);
+g_form.setValue('visio_365_account_name',value[0]);
+//g_form.setValue('room_number',value[1]);
+
+}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-07-15 16:59:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e92bff882f3459108968ea5ef699b684&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;post KFS data to record&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_e92bff882f3459108968ea5ef699b684&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-15 20:48:01&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>589503281</payload_hash>
+        <record_name>post KFS data to record</record_name>
+        <reverted_from/>
+        <source>551f85752f6811108968ea5ef699b65d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 20:48:02</sys_created_on>
+        <sys_id>aaaf20d42f3859108968ea5ef699b654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182039e4d730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 20:48:02</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>92af20d4763859108958bef149b92654</update_guid>
+        <update_guid_history>92af20d4763859108958bef149b92654:589503281,0b3e2454a93859102f1eb491400613e6:-1134536756,41ada81416385910923f5f9d7143189f:-1369166030,996d2414a5385910f856e73032debdd4:-897899230,76fb60908f38591005aea07d0b36a43f:-1770820904,a9ca6c101538591089caceed2ecb66da:-1770799688,c74a2410853859105ce85a6c5e2fd0f5:125768579,f3d92010ab385910c04c411a35dd2bb0:924838971,70a9ac9c4af459108fd406919e9d2d87:-1325616523,4ec56cd83ff45910a1c768fe51e7ea68:1467164847,c2222418c3f45910f16d3eeec6c875e4:-1980700038,cec164d44cf459108da93f1b7a9b89b0:1691579518,59dfdc54faf45910386e60ec9f38aa92:1271920049,4a2fdc14a3f459104ebdaf231f0bf24e:-1718094312,cfae1814c4f459106cfbac54b3b981ae:-189904739,8f6e1cd049f4591037e913f322af6011:2102385021,834e1cd0e8f459101dd37dbb5436837a:-1287169883,95ebd01047f459100e40f6a9c6277187:2102385021,2d8598189fb45910e47b923e07aabb4c:-847227079,673bbb886c3459100f3f7085b9ef3541:331505948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="post KFS data to record">c433bc982f3859108968ea5ef699b6e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 21:03:27</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>09bfff5f311a45e496f6c7545e4cbd90</sys_id>
+        <sys_metadata>e92bff882f3459108968ea5ef699b684</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>post KFS data to record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_e92bff882f3459108968ea5ef699b684</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_e92bff882f3459108968ea5ef699b684">aaaf20d42f3859108968ea5ef699b654</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 21:03:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
