@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="kfs_pinnacle" max_length="40" name="x_58872_needit_kfs_pinnacle" type="collection">
+    <element label="kfs_pinnacle" max_length="40" name="x_58872_needit_kfs_pinnacle" sizeclass="38724" type="collection">
         <element attributes="edge_encryption_enabled=true" label="ACCOUNT_NAME" max_length="40" name="account_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="ACCOUNT_NUMBER" max_length="40" name="account_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ACTIVE_FLAG" max_length="40" name="active_flag" type="string"/>
