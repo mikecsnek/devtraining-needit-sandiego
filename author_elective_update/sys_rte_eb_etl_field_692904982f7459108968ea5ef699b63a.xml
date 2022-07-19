@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>org_nm</field>
+        <name>ORG_NM</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 17:59:46</sys_created_on>
+        <sys_id>692904982f7459108968ea5ef699b63a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORG_NM</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="data_etl_ihub">992988582f7459108968ea5ef699b627</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Target_x_58872_needit_pinnacle_kfs">252904982f7459108968ea5ef699b613</sys_rte_eb_entity>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_692904982f7459108968ea5ef699b63a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 17:59:46</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>40b9c3a5db5cf3000b9d21c40596195a</instance_id>
+        <instance_name>dev76182</instance_name>
+        <name>sys_rte_eb_etl_field_692904982f7459108968ea5ef699b63a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>org_nm</field><name>ORG_NM</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-15 17:59:46</sys_created_on><sys_id>692904982f7459108968ea5ef699b63a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ORG_NM</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_rte_eb_definition display_value="data_etl_ihub">992988582f7459108968ea5ef699b627</sys_rte_eb_definition><sys_rte_eb_entity display_value="Target_x_58872_needit_pinnacle_kfs">252904982f7459108968ea5ef699b613</sys_rte_eb_entity><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_rte_eb_etl_field_692904982f7459108968ea5ef699b63a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-15 17:59:46</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>267214952</payload_hash>
+        <record_name>ORG_NM</record_name>
+        <reverted_from/>
+        <source>551f85752f6811108968ea5ef699b65d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-15 17:59:46</sys_created_on>
+        <sys_id>6d2904982f7459108968ea5ef699b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1820304414a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-15 17:59:46</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>a5290498287459108d531a616a6b773b</update_guid>
+        <update_guid_history>a5290498287459108d531a616a6b773b:267214952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-15 18:00:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>484310c5d3ac46f4b489f70fc728ade4</sys_id>
+        <sys_metadata>692904982f7459108968ea5ef699b63a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ORG_NM</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_692904982f7459108968ea5ef699b63a</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_692904982f7459108968ea5ef699b63a">6d2904982f7459108968ea5ef699b63b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-15 18:00:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

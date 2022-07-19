@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_pipeline_pipeline">
+    <sn_pipeline_pipeline action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Dev Pipe</name>
+        <pipeline_type display_value="Application Deployment">268f9c0fb73430100290b9708e11a9de</pipeline_type>
+        <source_environment display_value="Dev">20c7746d2f3011108968ea5ef699b6c6</source_environment>
+        <sys_class_name>sn_pipeline_pipeline</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-19 18:37:33</sys_created_on>
+        <sys_id>1218f86d2f3011108968ea5ef699b606</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dev Pipe</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sn_pipeline_pipeline_1218f86d2f3011108968ea5ef699b606</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-19 18:37:33</sys_updated_on>
+    </sn_pipeline_pipeline>
+</record_update>
