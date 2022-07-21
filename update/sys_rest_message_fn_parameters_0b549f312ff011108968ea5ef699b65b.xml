@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
     <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
         <name>id</name>
-        <rest_message_function display_value="ass power automate GRUPO">a8ca11002ff819108968ea5ef699b662</rest_message_function>
+        <rest_message_function display_value="POST assign power automate GRUPO">a8ca11002ff819108968ea5ef699b662</rest_message_function>
         <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-21 00:38:35</sys_created_on>
