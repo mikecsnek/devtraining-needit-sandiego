@@ -5,34 +5,28 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content>{&#13;
-    "addLicenses": [&#13;
-        {&#13;
-            "disabledPlans": [],&#13;
-            "skuId": "f30db892-07e9-47e9-837c-80727f46fd3d"&#13;
-        }&#13;
-    ],&#13;
-    "removeLicenses": []&#13;
+  "@odata.id": "https://graph.microsoft.com/v1.0/directoryObjects/${id}"&#13;
 }</content>
-        <function_name>ass power automate v365</function_name>
+        <function_name>ass power automate GRUPO</function_name>
         <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>M365 license mgmt [ ass power automate v365 ]</qualified_name>
-        <rest_endpoint>https://graph.microsoft.com/v1.0/users/${user}/assignLicense</rest_endpoint>
+        <qualified_name>M365 license mgmt [ ass power automate GRUPO ]</qualified_name>
+        <rest_endpoint>https://graph.microsoft.com/v1.0/groups/cc3d83fb-1f0e-4c32-8124-fd680aa9dc36/members/$ref</rest_endpoint>
         <rest_message display_value="M365 license mgmt">469ce4f22f2015108968ea5ef699b63e</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-15 05:18:29</sys_created_on>
         <sys_id>a8ca11002ff819108968ea5ef699b662</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>ass power automate v365</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>ass power automate GRUPO</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_rest_message_fn_a8ca11002ff819108968ea5ef699b662</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-15 05:20:01</sys_updated_on>
+        <sys_updated_on>2022-07-21 00:40:50</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>
